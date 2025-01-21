@@ -7,5 +7,5 @@ const courseEnRoutes=express.Router();
 
 courseEnRoutes.post('/courseEnroll/:id',isAuth,createEnrollment);
 courseEnRoutes.get('/courseEnrouser',isAuth,courseEnrollmentByuser);
-courseEnRoutes.get('/courseEnroAlluser/:id',isAuth,coureseEnrollAlluser)
+courseEnRoutes.get('/courseEnroAlluser/:id',isAuth,coureseEnrollAlluser);
 export default courseEnRoutes
